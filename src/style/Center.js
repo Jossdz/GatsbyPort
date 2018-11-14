@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import React from 'react'
 
-const C = styled.div`
+const Cen = styled.div`
 	height: 20rem;
 	margin-top: -3em;
 	padding-top: 3em;
@@ -21,4 +21,4 @@ const C = styled.div`
 		}
 	}
 `
-export default ({children}) => <C>{children}</C>
+export default ({children}) => <Cen>{children}</Cen>
