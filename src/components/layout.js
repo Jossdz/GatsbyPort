@@ -40,7 +40,7 @@ const Layout = ({children}) => (
 					<MenuS pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
 						<Link to='/'>Home</Link>
 						<br />
-						<Link to='/page-2'>Blog</Link>
+						<Link to='/blog'>Blog</Link>
 						<br />
 						<Link to='/'>Talks</Link>
 						<br />

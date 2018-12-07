@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": "2018",
+    "ecmaVersion": 2018,
     "sourceType": "module"
   },
   "extends": [
@@ -10,6 +10,6 @@
     "no-console": "off"
   },
   "env": {
-      "browser": true
+      "node": true
   }
 }
