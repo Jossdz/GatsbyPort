@@ -88,7 +88,7 @@ const Home = ({data}) => {
 )}
 
 export const query = graphql`
-	query data{
+	query {
 		site{
 			siteMetadata{
 				events{
@@ -136,6 +136,7 @@ export const query = graphql`
   	...fluidImage
   	}
 	}
+
 	fragment fluidImage on File {
 		childImageSharp {
 			fluid(maxWidth: 200) {
