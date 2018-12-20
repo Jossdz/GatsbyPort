@@ -10,8 +10,33 @@ import Skewed from '../style/Skewed'
 import Logo from '../style/Logo'
 import logo from '../images/Logo_w.svg'
 import Line from '../images/line.svg'
+import apollo from '../images/apollo.png'
+import eslint from '../images/eslint.png'
+import gatsby from '../images/gatsby.png'
+import github from '../images/github.png'
+import graphqlimg from '../images/graphql.png'
+import js from '../images/js.png'
+import npm from '../images/npm.png'
+import prettier from '../images/prettier.png'
+import react from '../images/react.png'
+import vscode from '../images/vscode.png'
+import mongo from '../images/mongo.png'
+import xd from '../images/xd.png'
 
-
+const Images = [
+	apollo,
+	eslint,
+	gatsby,
+	github,
+	graphqlimg,
+	js,
+	npm,
+	prettier,
+	react,
+	vscode,
+	mongo,
+	xd,
+]
 const H0 = styled.h1`
 	font-size: 5em;
 	color: white;
@@ -43,19 +68,14 @@ const Home = ({data}) => {
 
 		<Center>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-				pariatur, blanditiis praesentium, mollitia fugit hic earum dolores iste
-				error nulla culpa aliquid nesciunt? Tempora adipisci aut fugiat
-				repellendus doloribus rem!
+				Mi nombre es José Carlos, pero todos en la industria tech me conocen como 'Joss', he estado durante muchos años involucrado en comunidades de desarrollo web y tecnologías de la información y me gusta aprender y colaborar con personas en el entorno. Actualmente trabajo en Ironhack como maestro asistente para aportar a la educación en tecnología y a su vez escribo y preparo contenido para complementar mi misión de compartir conocimiento online y en pláticas de comunidades.
 			</p>
-			<h2>– Me</h2>
 		</Center>
 		<center>
-			<h2>Timeline</h2>
+			<h2>Historia</h2>
 		</center>
 		<Time>
 			{data.site.siteMetadata.events.map(({title, description, place, year}, i) => <Moment key={i}>
-					<img src={Line} width='100' alt='moment' />
 					<div>
 						<h3>{title}</h3>
 						<p style={{textAlign: 'justify', fontSize: '0.8em'}}>
@@ -68,21 +88,10 @@ const Home = ({data}) => {
 				</Moment>)}
 		</Time>
 		<center style={{marginTop: '2em'}}>
-			<H3>Current stack</H3>
+			<H3>Stack actual</H3>
 		</center>
-		<Skewed height='2'>
-			<div><Image fluid={data.apollo.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.eslint.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.gatsby.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.github.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.graphql.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.js.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.npm.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.prettier.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.react.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.vscode.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.mongo.childImageSharp.fluid}/></div>
-			<div><Image fluid={data.xd.childImageSharp.fluid}/></div>
+		<Skewed height='1'>
+			{Images.map((img, i) => <div><img src={img} key={i*23}/></div>)}
 		</Skewed>
 	</Layout>
 )}
