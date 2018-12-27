@@ -68,7 +68,6 @@ module.exports = {
 		{
       resolve: `gatsby-source-filesystem`,
       options: {
-				plugins: [`gatsby-remark-prismjs`],
         name: `posts`,
         path: `${__dirname}/src/pages/post`,
       },
@@ -83,7 +82,12 @@ module.exports = {
 		'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
 		'gatsby-plugin-react-helmet',
-		`gatsby-transformer-remark`,
+		{
+			resolve: `gatsby-transformer-remark`,
+			options: {
+				plugins: [`gatsby-remark-prismjs`, `gatsby-remark-copy-linked-files`]
+			}
+		},
 		`gatsby-plugin-styled-components`,
 		'gatsby-plugin-offline',
 		{

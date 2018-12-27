@@ -10,7 +10,7 @@ export default styled.div`
     inset 0px -15px 20px -14px #323232;
   transform: skewY(-4deg);
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
@@ -22,6 +22,9 @@ export default styled.div`
   div{
     margin: 0 2em;
     width: 6rem;
+    height: 100%;
+    display:flex;
+    align-items: center;
   }
   img{
     filter: grayscale(100%);
