@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import './layout.css'
 import {bubble as Menu} from 'react-burger-menu'
 import {Link} from 'gatsby'
+import Footer from '../style/Footer'
 
 const MenuS = styled(Menu)`
 	a:visited {
@@ -30,11 +31,11 @@ const Layout = ({children}) => (
 				<Helmet
 					title={data.site.siteMetadata.title}
 					meta={[
-						{name: 'description', content: 'Sample'},
-						{name: 'keywords', content: 'sample, something'},
+						{name: 'Portafolio profesional, Jose Carlos Correa (jossdz)', content: 'Sample'},
+						{name: 'keywords', content: 'portafolio, fullstack, javascript'},
 					]}
 				>
-					<html lang='en' />
+					<html lang='es' />
 				</Helmet>
 				<div id='outer-container'>
 					<MenuS pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
@@ -44,11 +45,10 @@ const Layout = ({children}) => (
 						<br />
 						<Link to='/'>Talks</Link>
 						<br />
-						<Link to='/'>Contact</Link>
-						<br />
-						<Link to='/'>Mentorship</Link>
+						<Link to='/'>Contact</Link> 
 					</MenuS>
-					<main id='page-wrap'>{children}</main>
+					<main id='page-wrap' style={{marginBottom: '5em'}}>{children}</main>
+					<Footer></Footer>
 				</div>
 			</>
 		)}
