@@ -26,10 +26,17 @@ const Pad = styled.article`
   }
   p{
     text-align: justify;
+    font-size: 1.2rem;
+  }
+  h2{
+    font-size:2.4rem;
   }
   a{
     color:#68537B;
     cursor: pointer;
+  }
+  ul>li{
+    text-align: initial;
   }
 `
 
