@@ -13,6 +13,13 @@ const MenuS = styled(Menu)`
 		color: white;
 		text-decoration: none;
 	}
+	a{
+		color: #eee;
+	}
+	a:hover{
+		color: #eee;
+		text-decoration: none;
+	}
 `
 
 const Layout = ({children}) => (
@@ -39,13 +46,13 @@ const Layout = ({children}) => (
 				</Helmet>
 				<div id='outer-container'>
 					<MenuS pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
-						<Link to='/'>Home</Link>
+						<Link to='/'><a>Inicio</a></Link>
 						<br />
-						<Link to='/blog'>Blog</Link>
+						<Link to='/blog'><a>Blog</a></Link>
 						<br />
-						<Link to='/'>Talks</Link>
-						<br />
-						<Link to='/'>Contact</Link> 
+						<Link to='/charlas'><a>Presentaciones</a></Link>
+						{/* <br />
+						<Link to='/'>Contacto</Link>  */}
 					</MenuS>
 					<main id='page-wrap' style={{marginBottom: '5em'}}>{children}</main>
 					<Footer></Footer>

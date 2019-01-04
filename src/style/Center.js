@@ -14,7 +14,7 @@ const Cen = styled.div`
 		text-align: justify;
 	}
 	@media only screen and (max-width: 600px) {
-		margin-top: 1.2em;
+		margin: 1.8em 0;
 		padding: 0 2rem;
 		h1 {
 			margin: 0;

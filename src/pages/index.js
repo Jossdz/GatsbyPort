@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import styled from 'styled-components'
+
 import Layout from '../components/layout'
 import Section from '../style/Section'
 import Center from '../style/Center'
@@ -68,7 +69,7 @@ const Home = ({data}) => {
 
 		<Center>
 			<p>
-				Mi nombre es José Carlos, pero todos en la industria tech me conocen como 'Joss', he estado durante muchos años involucrado en comunidades de desarrollo web y tecnologías de la información y me gusta aprender y colaborar con personas en el entorno. Actualmente trabajo en Ironhack como maestro asistente para aportar a la educación en tecnología y a su vez escribo y preparo contenido para complementar mi misión de compartir conocimiento online y en pláticas de comunidades.
+				Mi nombre es Jose Carlos, pero todos en la industria tech me conocen como 'Joss'. He estado durante muchos años involucrado en comunidades de desarrollo web y tecnologías de la información y me gusta aprender y colaborar con personas en el entorno. Actualmente trabajo en Ironhack como maestro asistente para aportar a la educación en tecnología y a su vez escribo y preparo contenido para complementar mi misión de compartir conocimiento online y en pláticas de comunidades.
 			</p>
 		</Center>
 		<center>
