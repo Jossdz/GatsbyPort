@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = styled.footer`
-  -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
   width: 100vw;
-  height: 15em;
+  height: 12em;
   background-color: #3B3A55;
   display: flex;
   flex-direction: column;

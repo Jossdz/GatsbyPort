@@ -3,22 +3,18 @@ module.exports = {
 		title: 'JossDz',
 		events: [
 			{
-				title: 'Ingeniería en sistemas computacionales',
-				place: 'TESI',
-				description: 'Comenzó mi carrera en la ingeniería en sistemas en el TESI.',
-				year: '2013 - 2018',
-			},
-			{
-				title: 'Primer Meetup',
-				place: 'Telmex Hub',
+				title: 'Teacher Assistant',
+				place: 'Ironhack Mex',
 				description:
-					'Asistí a mi primer meetup con el GDG IPN.',
-				year: '2014',
+				'Trabajo como Instructor asistente en Ironhack, encargado también del proceso de admisiones técnicas y mentor de los alumnos para convertirse en desarrolladores fullstack.'	
+				,
+				year: '2017 - Actual',
 			},
 			{
-				title: 'Cinta negra Front-ent',
-				place: 'Dev.f',
-				description: `Cursé el curso de desarrollo web front-end avanzado, donde aprendí a desarrollar aplicaciones en el cliente con Angularjs y desarrollo de producto con Sprint design.`,
+				title: 'Aprende Ti',
+				place: 'WTC CDMX',
+				description:
+					`Impartí mi primer clase como instructor profesional en desarrollo web en el taller de introducción a React.`,
 				year: '2017',
 			},
 			{
@@ -29,19 +25,23 @@ module.exports = {
 				year: '2017',
 			},
 			{
-				title: 'Aprende Ti',
-				place: 'WTC CDMX',
-				description:
-					`Impartí mi primer clase como instructor profesional en desarrollo web en el taller de introducción a React.`,
+				title: 'Cinta negra Front-end',
+				place: 'Dev.f',
+				description: `Cursé el curso de desarrollo web front-end avanzado, donde aprendí a desarrollar aplicaciones en el cliente con Angularjs y desarrollo de producto con Sprint design.`,
 				year: '2017',
 			},
 			{
-				title: 'Teacher Assistant',
-				place: 'Ironhack Mex',
+				title: 'Primer Meetup',
+				place: 'Telmex Hub',
 				description:
-				'Trabajo como Instructor asistente en Ironhack, encargado también del proceso de admisiones técnicas y mentor de los alumnos para convertirse en desarrolladores fullstack.'	
-				,
-				year: '2017 - Actual',
+					'Asistí a mi primer meetup con el GDG IPN.',
+				year: '2014',
+			},
+			{
+				title: 'Ingeniería en sistemas computacionales',
+				place: 'TESI',
+				description: 'Comenzó mi carrera en la ingeniería en sistemas en el TESI.',
+				year: '2013 - 2018',
 			},
 		],
 		talks: [
@@ -50,7 +50,7 @@ module.exports = {
 				place:'BEDU',
 				date: new Date(2018,11,23),
 				title: 'Intro a Redux',
-				abstract: 'Introducción amigable a la principal herramienta de manejo de estados en aplicaciones complejas de React, donde explico su uso sin dicho framewok. Redux es una librería que por si misma, nos enseña muchísimo.',
+				abstract: 'Introducción amigable a la principal herramienta de manejo de estados en aplicaciones complejas de React, donde explico su uso sin dicho framewok. Redux es una libreria que por si misma, nos enseña muchísimo.',
 				slides: 'https://intro-a-redux-bfkjqoawjs.now.sh/#0',
 				tags: ['redux', 'js', 'node']
 			},
@@ -77,7 +77,7 @@ module.exports = {
 				place:'Ironhack Mex',
 				date: new Date(2018, 10, 3),
 				title: 'Como iniciar en el desarrollo de React',
-				abstract: 'Despues de mucho tiempo de haber dado la misma charla durante varios meses, noté que la gente esperaba de react mucho, pero react no es una herramienta mágia. Es una simple librería de Javascript.',
+				abstract: 'Después de mucho tiempo de haber dado la misma charla durante varios meses, noté que la gente esperaba de react mucho, pero react no es una herramienta magia. Es una simple libreria de Javascript.',
 				slides: 'https://dist-ndjnycrydj.now.sh/#0',
 				tags: ['js', 'node', 'react']
 			},
@@ -86,7 +86,7 @@ module.exports = {
 				place:'Ironhack Mex',
 				date: new Date(2018,3,1),
 				title: 'Introducción a React',
-				abstract: 'Primera charla introductoria a React, la librería de facebook para construir interfaces de usuario. Reactiva y moderna, la librería puede ser muy util para tu siguiente proyecto.',
+				abstract: 'Primera charla introductoria a React, la libreria de Facebook para construir interfaces de usuario. Reactiva y moderna, la libreria puede ser muy útil para tu siguiente proyecto.',
 				slides: 'https://slides.com/jossdz/ihreact#/',
 				tags: ['js', 'node', 'react']
 			}
