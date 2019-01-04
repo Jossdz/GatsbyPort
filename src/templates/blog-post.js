@@ -10,8 +10,9 @@ import Section from '../style/Section'
 const Pad = styled.article`
   margin-bottom: -5rem;
   text-align: center;
+  padding: 2rem 10rem;
   @media only screen and (max-width: 600px) {
-    padding: 6rem 1rem;
+    padding: 4rem 1rem;
   }
   .side{
     float: left;
@@ -38,11 +39,7 @@ const Pad = styled.article`
     color:#68537B;
     cursor: pointer;
   }
-<<<<<<< HEAD
-  ul>li{
-=======
   ul > li{
->>>>>>> release/RELEASE
     text-align: initial;
   }
 `
