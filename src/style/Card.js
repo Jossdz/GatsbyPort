@@ -122,7 +122,7 @@ export default ({title, excerpt, tags, href}) =>
     <p>{excerpt}</p>
   </Excerpt>
   {tags && <Tags>{tags.map((tag, i) => 
-      <Tag tech={tag} length={tags.length}>
+      <Tag key={i} tech={tag} length={tags.length}>
         <small key={i}>#{tag}</small>
       </Tag>
     )}</Tags>}

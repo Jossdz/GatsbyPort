@@ -44,7 +44,53 @@ module.exports = {
 				year: '2017 - Actual',
 			},
 		],
-		talks: []
+		talks: [
+			{
+				id:5,
+				place:'BEDU',
+				date: new Date(2018,11,23),
+				title: 'Intro a Redux',
+				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				slides: 'https://intro-a-redux-bfkjqoawjs.now.sh/#0',
+				tags: ['redux', 'js', 'node']
+			},
+			{
+				id: 4,
+				place:'BEDU',
+				date: new Date(2018, 10, 31),
+				title: 'Manejo de Estados en web apps',
+				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				slides: 'https://dist-akaozitoxf.now.sh/#0',
+				tags: ['redux', 'js', 'node', 'react']
+			},
+			{
+				id: 3,
+				place:'Facebook Dev. Circles: CDMX',
+				date: new Date(2018, 10, 11),
+				title: 'Apps Netlify, apollo y graphql',
+				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				slides: 'https://dist-rtpgcxbnmv.now.sh/#0',
+				tags: ['graphql', 'js', 'node', 'apollo', 'react']
+			},
+			{
+				id: 2,
+				place:'Ironhack Mex',
+				date: new Date(2018, 10, 3),
+				title: 'Como iniciar en el desarrollo de React',
+				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				slides: 'https://dist-ndjnycrydj.now.sh/#0',
+				tags: ['js', 'node', 'react']
+			},
+			{
+				id: 1,
+				place:'Ironhack Mex',
+				date: new Date(2018,3,1),
+				title: 'Introducción a React',
+				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				slides: 'https://slides.com/jossdz/ihreact#/',
+				tags: ['js', 'node', 'react']
+			}
+		]
 	},
 	plugins: [
 		{

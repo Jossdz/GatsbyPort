@@ -39,13 +39,13 @@ const Layout = ({children}) => (
 				</Helmet>
 				<div id='outer-container'>
 					<MenuS pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
-						<Link to='/'>Home</Link>
+						<Link to='/'>Inicio</Link>
 						<br />
 						<Link to='/blog'>Blog</Link>
 						<br />
-						<Link to='/'>Talks</Link>
+						<Link to='/charlas'>Charlas</Link>
 						<br />
-						<Link to='/'>Contact</Link> 
+						<Link to='/'>Contacto</Link> 
 					</MenuS>
 					<main id='page-wrap' style={{marginBottom: '5em'}}>{children}</main>
 					<Footer></Footer>

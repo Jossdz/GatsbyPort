@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import Section from '../style/Section'
+import { white } from 'ansi-colors';
 
 const Pad = styled.article`
   padding: 2rem 12rem;
@@ -31,6 +32,9 @@ const Pad = styled.article`
     color:#68537B;
     cursor: pointer;
   }
+  ul > li{
+    text-align: initial;
+  }
 `
 
 const H0 = styled.h1`
@@ -49,7 +53,10 @@ export default ({ data }) => {
   return (
     <Layout>
       <section>
-      <Section><H0>{post.frontmatter.title}</H0></Section>
+      <Section>
+        <H0>{post.frontmatter.title}</H0>
+        <small style={{color: 'whitesmoke'}}>{post.frontmatter.date}</small>
+      </Section>
         <Pad>        
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           {post.frontmatter.medium && <a href={post.frontmatter.medium}><img width='80' src="https://image.flaticon.com/icons/svg/511/511217.svg" alt="claps"/></a>}
@@ -66,6 +73,7 @@ export const query = graphql`
       frontmatter {
         title
         medium
+        date
       }
     }
   }
