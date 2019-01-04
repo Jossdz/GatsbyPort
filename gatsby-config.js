@@ -10,7 +10,7 @@ module.exports = {
 			},
 			{
 				title: 'Primer Meetup',
-				place: 'Telnex Hub',
+				place: 'Telmex Hub',
 				description:
 					'Asistí a mi primer meetup con el GDG IPN.',
 				year: '2014',

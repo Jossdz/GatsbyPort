@@ -79,6 +79,9 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+main{
+  padding-bottom: 10em;
+}
 
 @media only screen and (max-width: 480px) {
   html {
