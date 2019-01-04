@@ -1,11 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faCalendarDay } from '@fortawesome/free-solid-svg-icons'
+
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import Section from '../style/Section'
 
 const Pad = styled.article`
-  padding: 2rem 12rem;
+  margin-bottom: -5rem;
   text-align: center;
   @media only screen and (max-width: 600px) {
     padding: 6rem 1rem;
@@ -31,6 +34,9 @@ const Pad = styled.article`
     color:#68537B;
     cursor: pointer;
   }
+  ul > li{
+    text-align: initial;
+  }
 `
 
 const H0 = styled.h1`
@@ -49,7 +55,10 @@ export default ({ data }) => {
   return (
     <Layout>
       <section>
-      <Section><H0>{post.frontmatter.title}</H0></Section>
+      <Section>
+        <H0>{post.frontmatter.title}</H0>
+        <small style={{color: 'whitesmoke'}}><FontAwesomeIcon icon={faCalendarDay}/>  {post.frontmatter.date}</small>
+      </Section>
         <Pad>        
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           {post.frontmatter.medium && <a href={post.frontmatter.medium}><img width='80' src="https://image.flaticon.com/icons/svg/511/511217.svg" alt="claps"/></a>}
@@ -66,6 +75,7 @@ export const query = graphql`
       frontmatter {
         title
         medium
+        date
       }
     }
   }
