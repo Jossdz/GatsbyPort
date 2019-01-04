@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = styled.footer`
   -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
@@ -22,5 +24,5 @@ const Footer = styled.footer`
   }
 `
 export default () => <Footer>
-  <p>Con {'{ ...❤️}'} por Jossdz</p>
+  <p>Con {'{ '}...<FontAwesomeIcon icon={faHeart}/>{' }'} por Jossdz</p>
 </Footer>

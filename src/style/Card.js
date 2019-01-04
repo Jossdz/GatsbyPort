@@ -25,6 +25,9 @@ const Card = styled.article`
   &:hover{
     transform: translateY(-4px);
     box-shadow: rgba(25, 17, 34, 0.2) 0px 10px 42px;
+    a{
+      text-decoration: none;
+    }
   }
   @media only screen and (max-width: 600px) {
 		width: 100%;
@@ -46,7 +49,7 @@ const Title = styled.div`
   }
   @media only screen and (max-width: 600px) {
 		h2{
-      font-size: 1.48rem;
+      font-size: 1.2rem;
       color: rgba(59,58,85,1);
       margin-bottom: 0;
       padding: 0.5rem;

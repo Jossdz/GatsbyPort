@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import TextTruncate from 'react-text-truncate'
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faMapPin } from '@fortawesome/free-solid-svg-icons'
+
 
 const Card = styled.article`
   width: 49%;
@@ -31,9 +36,7 @@ const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
-    margin: 0;
-    font-size: 1.3rem;
+  span{
     color: #DDD;
   }
 `
@@ -49,6 +52,14 @@ const Details = styled.div`
   p{
     margin: 0;
   }
+  @media only screen and (max-width: 600px) {
+		p{
+      font-size:0.8rem;
+    }
+    small{
+      font-size: 0.7rem;
+    }
+	}
 `
 
 const Button = styled.div`
@@ -64,6 +75,10 @@ const Button = styled.div`
     justify-content: center;
     text-decoration: none;
     color: #ddd;
+    &:hover{
+      text-decoration: none;
+      color: #FFF;
+    }
   }
 `
 const Abstract = styled.div`
@@ -72,7 +87,13 @@ const Abstract = styled.div`
   padding: 1rem;
   p{
     margin: 0%;
+    font-size: 0.9rem;
+  }
+  @media only screen and (max-width: 600px) {
+    p{
+    margin: 0%;
     font-size: 0.7rem;
+  }
   }
 `
 
@@ -87,14 +108,24 @@ export default ({
   }) => 
   <Card>
     <Title>
-      <h2>{title}</h2>
+      <TextTruncate
+      line={2}
+      truncateText="…"
+      text={title}
+    />
     </Title>
     <Details>
-      <p>{place}</p>
+      <p><FontAwesomeIcon icon={faMapPin}/> {place}</p>
       <small>{date}</small>
     </Details>
     <Abstract>
-      <p>{abstract}</p>
+      <p>
+        <TextTruncate
+          line={4}
+          truncateText="…"
+          text={abstract}
+        />
+      </p>
     </Abstract>
     <Button>
       <a href={slides} target="_blank" >

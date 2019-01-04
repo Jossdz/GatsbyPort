@@ -50,7 +50,7 @@ module.exports = {
 				place:'BEDU',
 				date: new Date(2018,11,23),
 				title: 'Intro a Redux',
-				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				abstract: 'Introducción amigable a la principal herramienta de manejo de estados en aplicaciones complejas de React, donde explico su uso sin dicho framewok. Redux es una librería que por si misma, nos enseña muchísimo.',
 				slides: 'https://intro-a-redux-bfkjqoawjs.now.sh/#0',
 				tags: ['redux', 'js', 'node']
 			},
@@ -59,7 +59,7 @@ module.exports = {
 				place:'BEDU',
 				date: new Date(2018, 10, 31),
 				title: 'Manejo de Estados en web apps',
-				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				abstract: 'Presentación de las múltiples herramientas, nativas y externas para manejar el estado en aplicaciones de React, sus beneficios y casos de uso.',
 				slides: 'https://dist-akaozitoxf.now.sh/#0',
 				tags: ['redux', 'js', 'node', 'react']
 			},
@@ -68,7 +68,7 @@ module.exports = {
 				place:'Facebook Dev. Circles: CDMX',
 				date: new Date(2018, 10, 11),
 				title: 'Apps Netlify, apollo y graphql',
-				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				abstract: 'Graphql es una tecnología nueva y que propone un nuevo esquema, nos invita a cambiar la manera en la que vemos las aplicaciones web y puede llegar a ser complejo entrar a este mundo. Por eso netlify es la manera más accesible para comenzar.',
 				slides: 'https://dist-rtpgcxbnmv.now.sh/#0',
 				tags: ['graphql', 'js', 'node', 'apollo', 'react']
 			},
@@ -77,7 +77,7 @@ module.exports = {
 				place:'Ironhack Mex',
 				date: new Date(2018, 10, 3),
 				title: 'Como iniciar en el desarrollo de React',
-				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				abstract: 'Despues de mucho tiempo de haber dado la misma charla durante varios meses, noté que la gente esperaba de react mucho, pero react no es una herramienta mágia. Es una simple librería de Javascript.',
 				slides: 'https://dist-ndjnycrydj.now.sh/#0',
 				tags: ['js', 'node', 'react']
 			},
@@ -86,7 +86,7 @@ module.exports = {
 				place:'Ironhack Mex',
 				date: new Date(2018,3,1),
 				title: 'Introducción a React',
-				abstract: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever sinthe 1500s, when an unknoprinter took a galley of type ascrambled it to make a tyspecimen book.',
+				abstract: 'Primera charla introductoria a React, la librería de facebook para construir interfaces de usuario. Reactiva y moderna, la librería puede ser muy util para tu siguiente proyecto.',
 				slides: 'https://slides.com/jossdz/ihreact#/',
 				tags: ['js', 'node', 'react']
 			}

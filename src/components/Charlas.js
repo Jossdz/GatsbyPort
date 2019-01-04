@@ -34,7 +34,6 @@ const Posts = styled.section`
 	}
 `
 
-
 const H0 = styled.h1`
   font-size: 2.5rem;
   color: white;

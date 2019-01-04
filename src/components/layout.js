@@ -44,8 +44,8 @@ const Layout = ({children}) => (
 						<Link to='/blog'>Blog</Link>
 						<br />
 						<Link to='/charlas'>Charlas</Link>
-						<br />
-						<Link to='/'>Contacto</Link> 
+						{/* <br />
+						<Link to='/'>Contacto</Link>  */}
 					</MenuS>
 					<main id='page-wrap' style={{marginBottom: '5em'}}>{children}</main>
 					<Footer></Footer>

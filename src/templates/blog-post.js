@@ -1,9 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faCalendarDay } from '@fortawesome/free-solid-svg-icons'
+
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import Section from '../style/Section'
-import { white } from 'ansi-colors';
 
 const Pad = styled.article`
   padding: 2rem 12rem;
@@ -55,7 +57,7 @@ export default ({ data }) => {
       <section>
       <Section>
         <H0>{post.frontmatter.title}</H0>
-        <small style={{color: 'whitesmoke'}}>{post.frontmatter.date}</small>
+        <small style={{color: 'whitesmoke'}}><FontAwesomeIcon icon={faCalendarDay}/>  {post.frontmatter.date}</small>
       </Section>
         <Pad>        
           <div dangerouslySetInnerHTML={{ __html: post.html }} />

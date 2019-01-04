@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import styled from 'styled-components'
+
 import Layout from '../components/layout'
 import Section from '../style/Section'
 import Center from '../style/Center'
