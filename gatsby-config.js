@@ -1,3 +1,5 @@
+const trackID = require('./analytics')
+
 module.exports = {
 	siteMetadata: {
 		title: 'JossDz',
@@ -172,6 +174,13 @@ module.exports = {
 				noInlineHighlight: false,
 			},
 		},
+		{
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: trackID,
+      },
+    },
 		`gatsby-remark-prismjs`
 	],
 }
