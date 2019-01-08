@@ -6,7 +6,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 const Footer = styled.footer`
   -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0% 100%);
-  width: 100vw;
+  width: 100%;
   height: 15em;
   background-color: #3B3A55;
   display: flex;
@@ -51,5 +51,5 @@ export default () => <Footer>
     <a href='https://www.linkedin.com/in/jossdz/' target="_blank"><img src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-linkedin-1.png&r=222&g=222&b=222'/></a>
     <a href='https://github.com/Jossdz' target="_blank"><img src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=222&g=222&b=222'/></a>
   </Links>
-  <a href="mailto:me@jossdz.com"><h3>me@jossdz.com</h3></a>
+  {/* <a href="mailto:me@jossdz.com"><h3>me@jossdz.com</h3></a> */}
 </Footer>

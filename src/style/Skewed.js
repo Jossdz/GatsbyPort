@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export default styled.div`
-  width: 100vw;
+  width: 100%;
   height: ${props => props.height}rem;
   background-color: #efefef;
   height: 200px;
