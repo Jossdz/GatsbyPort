@@ -40,6 +40,7 @@ const Layout = ({children}) => (
 					meta={[
 						{name: 'Portafolio profesional, Jose Carlos Correa (jossdz)', content: 'Sample'},
 						{name: 'keywords', content: 'portafolio, fullstack, javascript'},
+						{name: 'Description', content:'Portafolio profesional, Jose Carlos Correa (jossdz)'},
 					]}
 				>
 					<html lang='es' />

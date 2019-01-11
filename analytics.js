@@ -1,0 +1,1 @@
+module.exports = 'UA-92268859-1'

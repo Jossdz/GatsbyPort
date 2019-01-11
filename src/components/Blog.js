@@ -49,8 +49,7 @@ export default () => ( <StaticQuery
         </Section>
         <Posts>
           {edges.map((edge, i) => 
-            <Card {...edge.node.frontmatter} href={edge.node.fields.slug} key={i}
-            />
+            <Card {...edge.node.frontmatter} href={edge.node.fields.slug} key={i}/>
           )}
         </Posts>
       </div>
