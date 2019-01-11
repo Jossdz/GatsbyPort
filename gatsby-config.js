@@ -1,3 +1,5 @@
+const trackID = require('./analytics')
+
 module.exports = {
 	siteMetadata: {
 		title: 'JossDz',
@@ -108,7 +110,7 @@ module.exports = {
 				background_color: '#663399',
 				theme_color: '#663399',
 				display: 'minimal-ui',
-				icon: 'src/images/Logo.png',
+				icon: 'src/images/favicon-16x16.png',
 			},
 		},
 		{
@@ -172,6 +174,13 @@ module.exports = {
 				noInlineHighlight: false,
 			},
 		},
+		{
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: trackID,
+      },
+    },
 		`gatsby-remark-prismjs`
 	],
 }
