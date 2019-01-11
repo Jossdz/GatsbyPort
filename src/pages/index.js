@@ -62,7 +62,7 @@ const Home = ({data}) => {
 	return (
 	<Layout>
 		<Section>
-			<Logo src={logo} width='200' alt='jossDz logo' />
+			<Logo src={logo} width='200' alt='jossdz_logo' />
 			<H0>Jose ( Joss ) Correa</H0>
 			<H3 white>Js Developer - Ta at Ironhack</H3>
 		</Section>
@@ -92,7 +92,7 @@ const Home = ({data}) => {
 			<H3>Stack actual</H3>
 		</center>
 		<Skewed height='1'>
-			{Images.map((img, i) => <div><img src={img} key={i*23}/></div>)}
+			{Images.map((img, i) => <div><img src={img} key={i*23} alt={`${img}_logo`}/></div>)}
 		</Skewed>
 	</Layout>
 )}

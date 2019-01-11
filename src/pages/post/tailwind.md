@@ -16,7 +16,7 @@ React es uno de los frameworks Front end del momento y su función básica segú
 React es una librería de JavaScript para construir interfaces de usuario.
 Esto es muy cierto, React nació para crear interfaces de usuario, resuelve perfecto la lógica y la vista pero… hay varias maneras de resolver los estilos, una manera interesante es haciendo uso de un framework; El problema de estos frameworks es que tienen en su mayoría estilos predefinidos (UI Kit)y hacen que muchos sitios se vean idénticos.
 
-<img class='side' src='https://cdn-images-1.medium.com/max/1200/1*xAR13OS8OHLlMbRTYQ3a2g.jpeg' alt='tailwind logo'/>
+<img class='side' src='https://cdn-images-1.medium.com/max/1200/1*xAR13OS8OHLlMbRTYQ3a2g.jpeg' alt='tailwind_logo'/>
 
 La solución a esto es un Framework llamado Tailwind, Tailwind es un Framework de css orientado a la utilidad para construir interfaces de usuario personalizadas. Lo que quieren dar a entender sus creadores es que es un framework que consiste en clases de utilidad que nos permiten dar estilos a nuestra aplicación escribiéndolos directamente en el html(o jsx) y no es un UI Kit.
 

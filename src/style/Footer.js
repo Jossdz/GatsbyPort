@@ -47,9 +47,9 @@ const Links = styled.div`
 
 export default () => <Footer>
   <Links>
-    <a href='https://medium.com/@jossdz' target="_blank"><img src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2018/png/iconmonstr-medium-1.png&r=222&g=222&b=222'/></a>
-    <a href='https://www.linkedin.com/in/jossdz/' target="_blank"><img src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-linkedin-1.png&r=222&g=222&b=222'/></a>
-    <a href='https://github.com/Jossdz' target="_blank"><img src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=222&g=222&b=222'/></a>
+    <a href='https://medium.com/@jossdz' target="_blank"><img alt='medium_logo' src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2018/png/iconmonstr-medium-1.png&r=222&g=222&b=222'/></a>
+    <a href='https://www.linkedin.com/in/jossdz/' target="_blank"><img alt='linkedin_logo' src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-linkedin-1.png&r=222&g=222&b=222'/></a>
+    <a href='https://github.com/Jossdz' target="_blank"><img alt='github_logo' src='https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-github-1.png&r=222&g=222&b=222'/></a>
   </Links>
   <a href="mailto:me@jossdz.com"><h3>me@jossdz.com</h3></a>
 </Footer>

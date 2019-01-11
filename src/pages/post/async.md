@@ -15,7 +15,7 @@ Para entender las callbacks necesitamos saber: ¿que son?
 
 Yo las describo como funciones que se pasan como argumento a otra función, la función callback se ejecuta cuando la función principal termina. Normalmente hacemos uso de los valores que resultan de la función principal. Esto significa que tendremos lógica la cuál genera un **valor**, que es usado dentro de la función **callback**.
 
-<img class='side' src='https://cdn-images-1.medium.com/max/1200/1*Lhm423H018XzY9VIZcpXWw.png' width='400'/>
+<img  alt='img_1' class='side' src='https://cdn-images-1.medium.com/max/1200/1*Lhm423H018XzY9VIZcpXWw.png' width='400'/>
 
 El código a la izquierda ejemplifica la definición, donde tenemos una función principal llamada saludar, quien recibe dos propiedades, la primera es un nombre y la segunda nuestra función callback. La función principal tiene la facultad de generar un saludo en base a un nombre, una vez generado el saludo el callback se va a ejecutar. Cuando llamamos la función se genera el saludo y ahora definimos lo que queremos hacer con el, la función del callback mostrará el saludo en consola. De esta manera es como el callback se ejecuta, esperando el valor devuelto por la función principal y por ello se le conoce como callback. Esto está bien, pero todo desarrollador llega a conocer y odiar algo llamado ‘Callback hell’ algo como esto:
 
