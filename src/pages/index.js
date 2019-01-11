@@ -92,7 +92,7 @@ const Home = ({data}) => {
 			<H3>Stack actual</H3>
 		</center>
 		<Skewed height='1'>
-			{Images.map((img, i) => <div><img src={img} key={i*23} alt={`${img}_logo`}/></div>)}
+			{Images.map((img, i) => <div key={i}><img src={img} key={i*23} alt={`${img}_logo`}/></div>)}
 		</Skewed>
 	</Layout>
 )}
