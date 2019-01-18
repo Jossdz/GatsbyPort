@@ -10,6 +10,7 @@ import Section from '../style/Section'
 const Pad = styled.article`
   margin-bottom: -5rem;
   text-align: center;
+  padding: 2rem 10rem;
   @media only screen and (max-width: 600px) {
     padding: 6rem 1rem;
   }

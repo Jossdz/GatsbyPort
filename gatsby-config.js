@@ -48,6 +48,15 @@ module.exports = {
 		],
 		talks: [
 			{
+				id:6,
+				place:'Ironhack Mex',
+				date: new Date(2019,1,17),
+				title: 'Aprende a Programar',
+				abstract: 'Hay muchos tabúes alrededor de la programación, el desarrollo y las tecnologías. Por ello es que nos interesa romper con esta percepción incorrecta sobre la programación: es algo complejo y que solo la gente prodigio puede realizar. La programación es para todos.',
+				slides: 'https://programacion-ih.now.sh',
+				tags: ['js', 'node']
+			},
+			{
 				id:5,
 				place:'BEDU',
 				date: new Date(2018,11,23),
