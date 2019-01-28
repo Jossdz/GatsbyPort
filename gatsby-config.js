@@ -80,7 +80,7 @@ module.exports = {
 				date: new Date(2018, 10, 11),
 				title: 'Apps Netlify, apollo y graphql',
 				abstract: 'Graphql es una tecnología nueva y que propone un nuevo esquema, nos invita a cambiar la manera en la que vemos las aplicaciones web y puede llegar a ser complejo entrar a este mundo. Por eso netlify es la manera más accesible para comenzar.',
-				slides: 'https://dist-rtpgcxbnmv.now.sh/#0',
+				slides: 'apollonetlify.now.sh',
 				tags: ['graphql', 'js', 'node', 'apollo', 'react']
 			},
 			{
