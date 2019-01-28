@@ -69,8 +69,16 @@ const Home = ({data}) => {
 
 		<Center>
 			<p>
-				Mi nombre es Jose Carlos, pero todos en la industria tech me conocen como 'Joss'. He estado durante muchos años involucrado en comunidades de desarrollo web y tecnologías de la información y me gusta aprender y colaborar con personas en el entorno. Actualmente trabajo en Ironhack como maestro asistente para aportar a la educación en tecnología y a su vez escribo y preparo contenido para complementar mi misión de compartir conocimiento online y en pláticas de comunidades.
+				Mi nombre es Jose Carlos, pero todos en la industria tech me conocen como <b>'Joss'</b>. Soy un desarrollador <b>fullstack</b>, he estado durante muchos años involucrado en comunidades de desarrollo web y tecnologías de la información. Me encanta aprender, enseñar y colaborar con personas en el entorno. Actualmente trabajo en Ironhack como maestro asistente para aportar a la educación en tecnología y a su vez escribo y preparo contenido para complementar mi misión de compartir conocimiento online y en pláticas de comunidades.
 			</p>
+		</Center>
+		<Center>
+			<h2>Contenido</h2>
+			<p>Revisa mi contenido:</p>
+			<div>
+			<button>Presentaciones</button>
+			<button>Blog</button>
+			</div>
 		</Center>
 		<center>
 			<h2>Historia</h2>
@@ -109,8 +117,9 @@ export const query = graphql`
 				}
 			}
 		}
+
 		apollo: file(relativePath: {eq: "apollo.png"}) {
-    ...fluidImage
+    	...fluidImage
 		}
 		eslint: file(relativePath: {eq: "eslint.png"}) {
 			...fluidImage

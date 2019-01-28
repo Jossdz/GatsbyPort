@@ -2,14 +2,12 @@ import styled from 'styled-components'
 import React from 'react'
 
 const Cen = styled.div`
-	height: 20rem;
 	margin-top: -3em;
-	padding-top: 3em;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 12rem 8rem 4rem 8rem;
+	padding: 5rem 8rem;
 	p {
 		text-align: justify;
 	}
