@@ -48,6 +48,15 @@ module.exports = {
 		],
 		talks: [
 			{
+				id: 7,
+				place: 'BEDU',
+				date: new Date(2019,2,1),
+				title: 'React for Dummies',
+				abstract:'React es la libreria de JavaScript que se está comiendo la web, ven y descubre porqué. En este taller aprenderás cómo empezar a utilizar esta poderosa herramienta para construir tu primera single page application. Asiste a nuestro próximo taller "React for Dummies".',
+				slides: 'https://ireact.now.sh',
+				tags:['js', 'react']
+			},
+			{
 				id:6,
 				place:'Ironhack Mex',
 				date: new Date(2019,1,17),

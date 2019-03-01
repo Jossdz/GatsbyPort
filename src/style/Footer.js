@@ -4,10 +4,10 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = styled.footer`
-  -webkit-clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
   width: 100%;
-  height: 12em;
+  height: 10em;
   background-color: #3B3A55;
   display: flex;
   flex-direction: column;
@@ -42,6 +42,8 @@ const Links = styled.div`
   }
   @media only screen and (max-width: 600px) {
     margin-top: 4rem;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 `
 

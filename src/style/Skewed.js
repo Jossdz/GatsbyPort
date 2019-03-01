@@ -8,7 +8,7 @@ export default styled.div`
   box-shadow: 
     inset 0px 15px 20px -14px #323232,
     inset 0px -15px 20px -14px #323232;
-  transform: skewY(-4deg);
+  transform: skewY(-2.2deg);
   display: flex;
   flex-wrap:wrap;
   flex-direction: column;

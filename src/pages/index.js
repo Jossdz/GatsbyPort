@@ -2,13 +2,16 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import styled from 'styled-components'
-
+import {Link} from 'gatsby'
 import Layout from '../components/layout'
 import Section from '../style/Section'
 import Center from '../style/Center'
 import { Moment, Time } from '../style/timeline'
 import Skewed from '../style/Skewed'
 import Logo from '../style/Logo'
+import ButtonS from '../style/ButtonS'
+import ContentBox from '../style/ContentBox'
+
 import logo from '../images/Logo_w.svg'
 import Line from '../images/line.svg'
 import apollo from '../images/apollo.png'
@@ -38,6 +41,7 @@ const Images = [
 	mongo,
 	xd,
 ]
+
 const H0 = styled.h1`
 	font-size: 5em;
 	color: white;
@@ -74,11 +78,12 @@ const Home = ({data}) => {
 		</Center>
 		<Center>
 			<h2>Contenido</h2>
-			<p>Revisa mi contenido:</p>
-			<div>
-			<button>Presentaciones</button>
-			<button>Blog</button>
-			</div>
+			<p>¿Te interesa aprender sobre programación?</p>
+			<small>Revisa mi contenido:</small>
+			<ContentBox justify='space-evenly'>
+				<Link to='/charlas'><ButtonS>Presentaciones</ButtonS></Link>
+				<Link to='/blog'><ButtonS>Blog</ButtonS></Link>
+			</ContentBox>
 		</Center>
 		<center>
 			<h2>Historia</h2>
